@@ -375,7 +375,15 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
-  background-position-y: center;
+  background-position-x: center;
+  background-position-y: 15%;
+}
+/* when screen is less than 600px wide
+show mobile version and hide desktop */
+@media (max-width: 600px) {
+  #global-header {
+    background-position-y: 25%;
+  }
 }
 #global-header:before {
   content: "";
