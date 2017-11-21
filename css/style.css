@@ -40,3 +40,64 @@
   border-radius: 10px;
   display: block;
 }
+
+/* Portrait */
+@media only screen 
+  and (orientation: portrait) { 
+
+  #global-header {
+    background-position-y: 110px;
+  }
+}
+/* thank god for https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+@media only screen 
+  and (min-width: 768px)
+  and (max-width: 991px) {
+  #global-header {
+    background-position-y: 110px;
+  }
+
+}
+@media only screen 
+  and (max-width: 767px)
+  and (min-height: 423px) {
+  #global-header {
+    background-position-y: 150px;
+    background-size: 400px;
+    padding-top: 100px;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (max-width: 450px)
+  and (orientation: portrait) { 
+
+  #global-header {
+    background-position-y: 140px;
+    background-size: 300px;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-height: 423px)
+  and (orientation: landscape) { 
+
+  #global-header {
+    background-position-y: 110px;
+  }
+}
+
+@media only screen 
+  and (max-height: 422px)
+  and (orientation: landscape) { 
+
+  #global-header {
+    background-position-y: 130px;
+    background-size: 300px;
+    padding-top: 100px;
+  }
+}
