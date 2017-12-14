@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+
+{{ content }}
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+
+          {% if site.conference.links.registration_uri %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.registration_uri }}" target="_blank">Register as attendee</a>
+          {% else %}
+          <h2>Registration not yet open</h2>
+          {% endif %}
+          
+        </div>
+      </div>
+  </div>
+</section>
+
+{% assign thesize = content.size %}
+{% if thesize > 5 %}
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+
+{{ content }}
+
+
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+  </div>
+</section>
+{% endif %}

@@ -41,6 +41,11 @@
   display: block;
 }
 
+#intro .sponsorlogos img {
+  width: auto;
+  padding: 0;
+}
+
 /* Portrait */
 @media only screen 
   and (orientation: portrait) { 

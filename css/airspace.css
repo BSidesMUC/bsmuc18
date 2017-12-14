@@ -374,6 +374,19 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
+  width: 200px;
+}
+#clients-logo-section .clients-logo-img img {
+  width: 100%;
+}
+#clients-logo-section .gold {
+  background-color: gold;
+}
+#clients-logo-section .silver {
+  background-color: silver;
+}
+#clients-logo-section .bronce {
+  background-color: #a52a2a63;
 }
 /*---------------------------------------------
 					Work Start
