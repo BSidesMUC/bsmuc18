@@ -54,20 +54,48 @@ a:active {
   text-align: center;
   background-color: rgba(253,216,53,1);
 }
-.section-title {
-  margin-bottom: 70px;
+
+/*#sponsor-gold {
+  background-color: rgba(253,216,53,1);
 }
+
+#sponsor-silver {
+  background-color: rgba(253,216,53,1);
+}
+#sponsor-bronze {
+  background-color: rgba(253,216,53,1);
+}/**/
+
+.sponsorlogos img {
+  margin: 30px 20px;
+  max-height: 100px;
+  max-width: 200px;
+}
+
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
 }
+
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
   color: #666;
 }
 
+.sponsor-title h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 10px 0px;
+  position: relative;
+  text-align: center;
+  background-color: #eee;
+}
+.sponsor-title p {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+}
 /*--
 	Header Start
 --*/

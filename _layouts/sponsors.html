@@ -33,15 +33,17 @@ layout: default
 {% if site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronce %}
 
 <!-- Wrapper Start -->
-<section id="intro">
+
+<!-- Call to action Start -->
+<section id="sponsors">
   <div class="container sponsorlogos">
 
 {% if site.conference.sponsors.gold %}
 <div class="row">
   <div class="col-md-12">
     <div class="block">
-      <div class="section-title">
-        <h2>Gold Sponsor</h2>
+      <div class="sponsor-title">
+        <h2 id="sponsor-gold">Gold Sponsor</h2>
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.gold %}
@@ -56,8 +58,8 @@ layout: default
 <div class="row">
   <div class="col-md-12">
     <div class="block">
-      <div class="section-title">
-        <h2>Silver Sponsor</h2>
+      <div class="sponsor-title">
+        <h2 id="sponsor-silver">Silver Sponsor</h2>
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.silver %}
@@ -74,8 +76,8 @@ layout: default
 <div class="row">
   <div class="col-md-12">
     <div class="block">
-      <div class="section-title">
-        <h2>Bronce Sponsor</h2>
+      <div class="sponsor-title">
+        <h2 id="sponsor-bronze">Bronze Sponsor</h2>
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.bronce %}

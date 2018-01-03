@@ -43,14 +43,20 @@ conference:
     footer: false
     # sponsor logos should all have the same format (at least width)
     gold:
+    - name: gold_sponsors
+      logo: /img/sponsors/gold.png
+    - name: Microsoft
+      logo: /img/sponsors/microsoft.png
+    silver:
+    - name: silver_sponsors
+      logo: /img/sponsors/silver.png
 #    - name: Siemens
 #      logo: /img/sponsors/siemens.jpg
-#    - name: Microsoft
-#      logo: /img/sponsors/microsoft.png
-    silver:
     bronce:
-#    - name: LastBreach
-#      logo: /img/sponsors/lastbreach.png
+    - name: bronze_sponsors
+      logo: /img/sponsors/bronze.png
+    - name: LastBreach
+      logo: /img/sponsors/lastbreach.png
   links:
     cfw_uri: https://goo.gl/forms/0Ltz0dmgptvnrhZ03
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
