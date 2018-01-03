@@ -396,6 +396,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #global-header {
   background: url("../img/slider-bg.png") no-repeat;
+  background-color: #e1e0e6;
   padding-top: 200px;
   padding-bottom: 107px;
   position: relative;
@@ -406,7 +407,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-#global-header:before {
+/*#global-header:before {
   content: "";
   position: absolute;
   left: 0;
@@ -418,7 +419,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
   opacity: 0.2;
 }
-
+/**/
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
