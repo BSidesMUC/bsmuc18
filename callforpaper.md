@@ -25,14 +25,12 @@ We are soliciting talks on computer security topics, but are not limited to the 
 * Security Management
 * Privacy
 
-All speakers will be given access to speaker mentorship, we especially encourage first time speakers to take advantage of this service. 
+We will do our best to provide mentors for all speakers who want additional feedback and support. We especially encourage first time speakers to take advantage of this service. 
 
 ## Rookie Speakers
 If you are interested in speaking at an infosec conference about a topic that is dear to you, but you are new or shy, here is your chance! Just add a short "rookie" note in your CFP submission, and we will gladly help you along the way.
 
 The infosec community is full of smart people. But, public speaking does not come easy for all of us.  So, we are here to encourage and support those who have doubts or a hard time deciding whether or not to go for it. BSidesMunich 2018 will have two different stages: a main stage and a rookie stage.  On the rookie stage you will have a smaller, supportive audience! If you have something you want to talk about, submit it; even if you are not sure it will be a good enough fit for the conference.
-
-> to be frank, *our* job is to figure out what topics will fit, your job is to describe what you're passionate about. we'll figure out if we can make it fit. don't self-select out. :) – [@getify](https://twitter.com/getify/status/940303263441850369?ref_src=twsrc%5Etfw)
 
 {% include callforaction_buttons.html %}
 
