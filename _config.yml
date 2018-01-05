@@ -57,6 +57,8 @@ conference:
       logo: /img/sponsors/bronze.png
     - name: LastBreach
       logo: /img/sponsors/lastbreach.png
+    - name: Google
+      logo: /img/sponsors/google.png
   links:
     cfw_uri: https://goo.gl/forms/0Ltz0dmgptvnrhZ03
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
