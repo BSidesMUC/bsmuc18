@@ -46,6 +46,15 @@
   padding: 0;
 }
 
+.speaker-image img {
+  width: 100px;
+/*  padding: 0; */
+}
+.speaker-image {
+  width: auto;
+/*  padding: 0; */
+}
+
 /* Portrait */
 @media only screen 
   and (orientation: portrait) { 

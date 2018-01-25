@@ -1,18 +1,4 @@
 
-exclude:
-  - "/vendor/"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE.md"
-  - "*.gemspec"
-
-keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
-
-
 # Site settings
 title: BSides Munich 2018
 subtitle: "A free security conference in the heart of Bavaria"
@@ -24,6 +10,14 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+
+collections:
+  talks:
+    output: true #Does not work
+    permalink: /:collection/:title
+  workshops:
+    output: true #Does not work
+    permalink: /:collection/:title
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -114,11 +108,17 @@ compress_html:
   blanklines: false
   profile: false
 
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "INSTALL.txt"
+  - "LICENSE.md"
+  - "*.gemspec"
 
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."

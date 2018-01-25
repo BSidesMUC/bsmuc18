@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<!-- Wrapper Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+
+{{ content }}
+
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Talks</h2>
+            <ul> 
+{% assign sorted = site.talks | sort: 'timeslot' %}
+{% for talk in sorted %}
+  <li>
+    {% if talk.details %}    
+      <a href="{{ talk.url | absolute_url }}">
+        {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+      </a>
+    {% else %}
+      {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+    {% endif %}
+  </li>
+{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Workshops</h2>
+            <ul>
+{% assign sorted = site.workshops | sort: 'timeslot' %}
+{% for talk in sorted %}
+  <li>
+    {% if talk.details %}    
+      <a href="{{ talk.url | absolute_url }}">
+        {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+      </a>
+    {% else %}
+      {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+    {% endif %}
+  </li>
+{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+  </div>
+</section>

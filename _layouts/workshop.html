@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% if page.register_uri %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <h2>Register for workshop</h2>
+          <p>{{ page.register_uri }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ page.workshop_uri }}">Open Registration</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+
+<!-- Call to action Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block">
+          <h2>Abstract</h2>
+          
+{{ content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to action Start -->
+<section id="speaker">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2">
+        <div class="block speaker-image">
+          <img src="{{ page.speaker.photo | absolute_url }}">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="block">
+          <h2>Speaker</h2>
+
+{{ page.speaker.cv }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
