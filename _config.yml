@@ -56,8 +56,8 @@ conference:
       logo: /img/sponsors/CYOSS.png
     - name: BMW
       logo: /img/sponsors/BMW.png
-#    - name: NSIDE ATTACK Logic
-#      logo: /img/sponsors/nsideattack.png
+    - name: NSIDE ATTACK Logic
+      logo: /img/sponsors/nsideattack.png
     bronce:
     - name: bronze_sponsors
       logo: /img/sponsors/bronze.png
