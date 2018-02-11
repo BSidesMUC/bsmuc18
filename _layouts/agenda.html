@@ -14,52 +14,203 @@ layout: default
         </div>
       </div><!-- .col-md-12 close -->
     </div>
+
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <div class="section-title">
-            <h2>Talks</h2>
-            <ul> 
-{% assign sorted = site.talks | sort: 'timeslot' %}
+          <div class="section-title agenda-title">
+            <h2>Workshops</h2>
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+    <div class="row">
+      <div class="p-3 col-lg-3 col-md-3">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 1</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+
+{% assign sorted = site.workshops | where: "track","1" | sort: 'timeslot.start' %}
 {% for talk in sorted %}
-  <li>
-    {% if talk.details %}    
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
       <a href="{{ talk.url | absolute_url }}">
-        {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
       </a>
     {% else %}
-      {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
     {% endif %}
   </li>
-{% endfor %}
-            </ul>
+{% endfor %}  
+ 
+          </ul>
+        </div>
+      </div>
+ 
+      <div class="p-3 col-lg-3 col-md-3">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 2</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+
+{% assign sorted = site.workshops | where: "track","2" | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | absolute_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+    {% endif %}
+  </li>
+{% endfor %}  
+
+          </ul>
+        </div>
+      </div>
+ 
+      <div class="p-3 col-lg-3 col-md-3">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 3</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+
+{% assign sorted = site.workshops | where: "track","3" | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | absolute_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+    {% endif %}
+  </li>
+{% endfor %}  
+
+          </ul>
+        </div>
+      </div>
+     
+      <div class="p-3 col-lg-3 col-md-3">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 4</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+
+{% assign sorted = site.workshops | where: "track","4" | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | absolute_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+    {% endif %}
+  </li>
+{% endfor %}  
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+            &nbsp;
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title agenda-title">
+            <h2>Talks</h2>
           </div>
         </div>
       </div><!-- .col-md-12 close -->
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>Workshops</h2>
-            <ul>
-{% assign sorted = site.workshops | sort: 'timeslot' %}
+      <div class="p-2 col-lg-2"></div>
+      
+      <div class="p-4 col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 1</h2>
+          </div>
+            <ul class="list-group list-group-flush">
+
+{% assign sorted = site.talks | where: "track","1" | sort: 'timeslot.start' %}
 {% for talk in sorted %}
-  <li>
-    {% if talk.details %}    
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
       <a href="{{ talk.url | absolute_url }}">
-        {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
       </a>
     {% else %}
-      {{ talk.timeslot | date: '%H:%M' }} - {{ talk.title }}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
     {% endif %}
   </li>
-{% endfor %}
-            </ul>
-          </div>
+{% endfor %}  
+          </ul>
         </div>
-      </div><!-- .col-md-12 close -->
+      </div>
+
+            
+      <div class="p-4 col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track 2</h2>
+          </div>
+            <ul class="list-group list-group-flush">
+
+{% assign sorted = site.talks | where: "track","2" | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+  <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | absolute_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }} –&nbsp;<b>{{ talk.title }}</b>
+    {% endif %}
+  </li>
+{% endfor %}  
+          </ul>
+        </div>
+      </div>
+      
+      <div class="p-2 col-lg-2"></div>
     </div>
+
+      
   </div>
 </section>

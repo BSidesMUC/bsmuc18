@@ -1,3 +1,4 @@
+
 /*
  * This is the main css file that ships with the airspace theme.
  * In airspace, it is called style.css
@@ -715,7 +716,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #agenda  ul {
   list-style: circle;
-  padding-left: 20px;
+/*  padding-left: 20px; */
 }
 
 /*---------------------------------------------
