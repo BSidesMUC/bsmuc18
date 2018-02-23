@@ -70,7 +70,8 @@ conference:
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
     registration_uri: https://bsidesmunich2018conference.eventbrite.de/
     sponsorpackage_uri: https://drive.google.com/file/d/1Lsji2_DzzBhGv2CYlRZcDl_9QU8mcnEz/view?usp=sharing
-    contickets_uri: https://bsidesmunich2018conference.eventbrite.de/v
+    contickets_uri: https://www.eventbrite.de/e/bsides-munich-2018-conference-registration-40179712602
+    #contickets_uri: https://bsidesmunich2018conference.eventbrite.de/v
     contickets_state: All tickets are gone, Waiting list is open
     wstickets_uri: /registration/
     wstickets_state: Registration opens on 26th February
