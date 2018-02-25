@@ -14,10 +14,12 @@ markdown: kramdown
 collections:
   talks:
     output: true #Does not work
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
+#    /:collection/:title/index.html
   workshops:
     output: true #Does not work
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
+#    permalink: /:collection/:title
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -50,8 +52,8 @@ conference:
       logo: /img/sponsors/CYOSS.png
     - name: BMW
       logo: /img/sponsors/BMW.png
-#    - name: NSIDE ATTACK Logic
-#      logo: /img/sponsors/nsideattack.png
+    - name: NSIDE ATTACK Logic
+      logo: /img/sponsors/nsideattack.png
     bronce:
     - name: bronze_sponsors
       logo: /img/sponsors/bronze.png
@@ -64,10 +66,10 @@ conference:
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
     registration_uri: https://bsidesmunich2018conference.eventbrite.de/
     sponsorpackage_uri: https://drive.google.com/file/d/1Lsji2_DzzBhGv2CYlRZcDl_9QU8mcnEz/view?usp=sharing
-    contickets_uri: https://bsidesmunich2018conference.eventbrite.de/v
+    contickets_uri: https://www.eventbrite.de/e/bsides-munich-2018-conference-registration-40179712602
     contickets_state: All tickets are gone, Waiting list is open
-    wstickets_uri: /registration/
-    wstickets_state: Registration opens on 26th February
+    wstickets_uri: https://www.eventbrite.de/e/bsides-munich-2018-workshops-tickets-43314640255
+    wstickets_state: Registration opens on 26th February, 9pm
   dates: 
     deadline_tickets: 2017-12-08
     deadline_cfp: 2018-02-01

@@ -18,7 +18,7 @@ layout: default
         <div class="block">
           <h2>Recordings</h2>
           <p>{{ page.recording_uri }}</p>
-          <a class="btn btn-default btn-call-to-action" href="{{ page.workshop_uri }}">View Recording</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ page.recording_uri }}">View Recording</a>
         </div>
       </div>
       {% endif %}
@@ -61,20 +61,31 @@ layout: default
 <!-- Call to action Start -->
 <section id="speaker">
   <div class="container">
+  
+{% for speaker in page.speakers %}
     <div class="row">
-      <div class="col-md-2 col-md-offset-2">
+      <div class="col-md-2 col-md-offset-2 col-xs-3 col-xs-offset-3">
         <div class="block speaker-image">
-          <img src="{{ page.speaker.photo | absolute_url }}">
+{% if speaker.photo  %}
+          <img src="{{ speaker.photo | relative_url }}">          
+{% else %}
+          <img src="/img/speakers/nemo.png">
+{% endif %}
         </div>
       </div>
-      <div class="col-md-6">
+
+      <div class="col-md-6 col-xs-10 col-xs-offset-1">
         <div class="block">
-          <h2>Speaker</h2>
-          
-{{ page.speaker.cv }}
+          <h2>{{ speaker.name }}</h2>
+
+{{ speaker.bio }}
 
         </div>
       </div>
     </div>
+
+    <div class="row">&nbsp;</div>    
+{% endfor %}  
+
   </div>
 </section>

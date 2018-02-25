@@ -716,7 +716,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #agenda  ul {
   list-style: circle;
-/*  padding-left: 20px; */
+  padding-left: 20px;
 }
 
 /*---------------------------------------------
