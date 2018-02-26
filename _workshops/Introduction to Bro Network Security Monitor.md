@@ -30,7 +30,7 @@ During this two-hour workshop, we will learn about Bro's capabilities and cover 
 - Bro scripting
 - Bro and ELK
 
-## Requirements for the workshop:
+## Requirements:
 - A laptop with at least 8 GB of RAM and more than 30 GB of free disk space
 - VMWare Workstation or VMWare Player installed
 

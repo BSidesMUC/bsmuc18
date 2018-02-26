@@ -19,3 +19,8 @@ We will have a look at the open source framework Frida (www.frida.re) for dynami
 
 Participants will learn how to make use of Frida: how to trace low level function calls, how to modify the flow of mobile apps and how to use Frida to quickly overcome basic defensive measures like certificate pinning or root detection.
 Additionally participants are going to learn how to use Frida as a framework for writing their own analysis and instrumentation scripts. Though we focus on Android in this workshop, the basic techniques are transferable to iOS, Linux and Windows as well.
+
+## Requirements:
+- A laptop that is capable to run a VM
+
+
