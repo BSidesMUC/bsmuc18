@@ -10,7 +10,7 @@ timeslot:
   end: 2018-04-09 09:35:00
 speakers: 
   - name: Jelena Milosevic
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/j3lenam_2.jpg
     bio: "My name is Jelena Milosevic, an extremely curious nurse, in love in math and tech ( believe it or not), finding correlations between the subjects that most people doesn't see.
 I can be proud that because of my curiosity, willing to learn and my activity, I get the part of I am the Cavalry group ( @iamthecavalry )  and belong to the network of Women in cyber security ( WICS - @WomenInCyber) "
 recording_uri: 
