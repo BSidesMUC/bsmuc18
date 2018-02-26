@@ -10,7 +10,7 @@ timeslot:
   end: 2018-04-09 14:40:00
 speakers: 
   - name: Stefan Hager
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/smee_cropped.jpg
     bio: "Having started with computers and starting to be puzzled by reality in the 80s, Stefan started out as a programmer in the early 90s. Since 2000 he has been securing networks and computers for various enterprises in Germany and Scotland.<br><br>His main focus nowadays is threat research, raising security awareness and discussing new ideas concerning threat mitigation. When not trying to do any of the stuff mentioned above, he is either travelling, procrastinating or trying to beat some hacking challenge."
 recording_uri: 
 slides_uri: 

@@ -11,7 +11,7 @@ timeslot:
 speakers: 
   - name: "Dr. Cornelius Diekmann"
     photo: /img/speakers/diekmann.jpg
-    bio: "Cornelius did a PhD using formal methods to enhance security. He taught network security at TUM."
+    bio: "I did a PhD using formal methods to make network access control more user-friendly. I also taught network security at TUM. My favorite flag in the Linux kernel is [MS_VERBOSE](https://elixir.bootlin.com/linux/v4.13.8/source/include/uapi/linux/fs.h#L120). ``Does the set of all sets contains itself?'' is a type error."
 recording_uri: 
 slides_uri: 
 ---
