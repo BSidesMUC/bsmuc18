@@ -10,10 +10,10 @@ timeslot:
   end: 2018-04-09 15:50:00
 speakers: 
   - name: "Alon Boxiner"
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/alon.jpg
     bio: "Alon Boxiner is an Israeli Security Expert at Check Point Security Technologies, Has over 4 years of experience from the Israeli National Cyber Defense unit. His recent researches has revealed vulnerabilities within popular services (ApkTool, Android Studio, Eclipse, LinkedIn)."
   - name: "Eran Vaknin"
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/eran.jpg
     bio: "Eran Vaknin is an Israeli Security Expert at Check Point Security Technologies, Has over 6 years of experience in cybersecurity research, His recent researchers has revealed vulnerabilities within popular services (ApkTool, Android Studio, LinkedIn, WhatsApp), Owner of 'Vproxy' mobile security tool."
 recording_uri: 
 slides_uri: 
