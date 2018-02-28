@@ -7,7 +7,7 @@ accepted: true
 length: 8
 timeslot:
  start: 2018-04-08 09:00
- end: 2018-04-08 13:00
+ end: 2018-04-08 18:00
 speakers:
   - name: Muhammed Muhammed Bassem
     photo: /img/speakers/bassem.jpg
