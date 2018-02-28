@@ -41,7 +41,8 @@ layout: default
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 
-  <li class="list-group-item">
+
+    <li class="list-group-item">
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
         <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
@@ -106,7 +107,11 @@ layout: default
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 {% if talk.title != "" %}
  
-  <li class="list-group-item">
+  {% if talk.keynote %}
+    <li class="list-group-item keynote-talk">
+  {% else %}
+    <li class="list-group-item">
+  {% endif %}
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
         <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>

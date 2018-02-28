@@ -15,6 +15,7 @@ speakers:
 I can be proud that because of my curiosity, willing to learn and my activity, I get the part of I am the Cavalry group ( @iamthecavalry )  and belong to the network of Women in cyber security ( WICS - @WomenInCyber) "
 recording_uri: 
 slides_uri: 
+keynote: true
 ---
 
 "One of the largest problem we face in and about cyber security is human error. By many investigations it came out that internal data breach goes even till 81,6 %  (investigation by Verzion).
