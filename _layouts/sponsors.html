@@ -38,75 +38,12 @@ layout: default
 <section id="sponsors">
   <div class="container sponsorlogos">
 
-{% if site.conference.sponsors.gold %}
-<div class="row">
-  <div class="col-md-12">
-    <div class="block">
-      <div class="sponsor-title">
-        <h2 id="sponsor-gold">Gold Sponsor</h2>
-      </div>
-      <p>
-{% for sponsor in site.conference.sponsors.gold %}
-  {% if sponsor.uri %}
-  <a href="{{ sponsor.uri }}">
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  </a>    
-  {% else %}
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  {% endif %}
-{% endfor %}
-      </p>
-    </div>
-  </div>
-</div>
-{% endif %}
+{% include sponsor_class.html class=site.conference.sponsors.gold %}
 
-{% if site.conference.sponsors.silver %}
-<div class="row">
-  <div class="col-md-12">
-    <div class="block">
-      <div class="sponsor-title">
-        <h2 id="sponsor-silver">Silver Sponsor</h2>
-      </div>
-      <p>
-{% for sponsor in site.conference.sponsors.silver %}
-  {% if sponsor.uri %}
-  <a href="{{ sponsor.uri }}">
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  </a>    
-  {% else %}
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  {% endif %}
-{% endfor %}
-      </p>
-    </div>
-  </div>
-</div>
-{% endif %}
+{% include sponsor_class.html class=site.conference.sponsors.silver %}
 
-{% if site.conference.sponsors.bronce %}
-<div class="row">
-  <div class="col-md-12">
-    <div class="block">
-      <div class="sponsor-title">
-        <h2 id="sponsor-bronze">Bronze Sponsor</h2>
-      </div>
-      <p>
-{% for sponsor in site.conference.sponsors.bronce %}
-  {% if sponsor.uri %}
-  <a href="{{ sponsor.uri }}">
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  </a>    
-  {% else %}
-    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-  {% endif %}
-{% endfor %}
-      </p>
-    </div>
-  </div>
-</div>
+{% include sponsor_class.html class=site.conference.sponsors.bronce %}
 
-{% endif %}
   </div>
 </section>
 
