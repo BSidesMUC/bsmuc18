@@ -47,13 +47,20 @@ layout: default
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.gold %}
-  <img src="{{ sponsor.logo  | relative_url }}" alt="{{ sponsor.name }}">
+  {% if sponsor.uri %}
+  <a href="{{ sponsor.uri }}">
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  </a>    
+  {% else %}
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  {% endif %}
 {% endfor %}
       </p>
     </div>
   </div>
 </div>
 {% endif %}
+
 {% if site.conference.sponsors.silver %}
 <div class="row">
   <div class="col-md-12">
@@ -63,16 +70,21 @@ layout: default
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.silver %}
-  <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  {% if sponsor.uri %}
+  <a href="{{ sponsor.uri }}">
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  </a>    
+  {% else %}
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  {% endif %}
 {% endfor %}
       </p>
     </div>
   </div>
 </div>
-
 {% endif %}
-{% if site.conference.sponsors.bronce %}
 
+{% if site.conference.sponsors.bronce %}
 <div class="row">
   <div class="col-md-12">
     <div class="block">
@@ -81,7 +93,13 @@ layout: default
       </div>
       <p>
 {% for sponsor in site.conference.sponsors.bronce %}
-  <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  {% if sponsor.uri %}
+  <a href="{{ sponsor.uri }}">
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  </a>    
+  {% else %}
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+  {% endif %}
 {% endfor %}
       </p>
     </div>
