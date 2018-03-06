@@ -12,7 +12,7 @@ speakers:
   - name: Julien Reisdorffer
     photo: /img/speakers/Julien_BSides.jpg
     bio: "Julien is a Cyber Security Consultant with Microsoft Services since 2015, where he spends his time with challenging topics like Security Architecture and the obligatory Cyber Janitor duties aka helping customers recover from a compromise."
-recording_uri: 
+recording_uri: /dev/null
 slides_uri: 
 ---
 

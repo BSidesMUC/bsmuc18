@@ -18,10 +18,10 @@ slides_uri:
 keynote: true
 ---
 
-"One of the largest problem we face in and about cyber security is human error. By many investigations it came out that internal data breach goes even till 81,6 %  (investigation by Verzion).
+One of the largest problem we face in and about cyber security is human error. By many investigations it came out that internal data breach goes even till 81,6 %  (investigation by Verzion).
 
 This shows how important it is to make employees at hospitals/companies aware of the importance of both good cyber security and their good and sensible behavior online at the workplace.
 
 I will explain how we can reach the employee to be open and want to learn more about good behavior online.
 
-The basic training with few rules from and for IT department will bring the awareness on higher level, so we can eliminate the ability of the bad and average criminal hackers to harm the company and everyone in there."
+The basic training with few rules from and for IT department will bring the awareness on higher level, so we can eliminate the ability of the bad and average criminal hackers to harm the company and everyone in there.

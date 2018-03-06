@@ -115,11 +115,15 @@ layout: default
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
         <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
-        <b>{{ talk.title }}</b><br>
+        <b>{{ talk.title }}</b>
+        <br>
         {% for speaker in talk.speakers %}
         <i>{{ speaker.name }}</i>
         {% endfor %}
       </a>
+      {% if talk.recording_uri == "/dev/null" %}
+        <i>not recorded</i>
+      {% endif %}
     {% else %}
       <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
       <b>{{ talk.title }}</b><br>

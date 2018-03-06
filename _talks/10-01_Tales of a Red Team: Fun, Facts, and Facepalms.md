@@ -12,8 +12,8 @@ speakers:
   - name: Rafael Fedler
     photo: /img/speakers/nemo.png
     bio: "Rafael Fedler has been dabbling in security for a few years now. After doing academic security research (mostly on Android security and software security) while in uni for his M.Sc., Rafael found offensive things to be a lot of fun, so he staid. He has three years of experience in penetration testing and red team engagements and thus has seen one or two networks, databases, active directories, and buildings from the inside. Most importantly, though, he follows his curiosity wherever it takes him and is always looking for the next intellectual challenge. This often leads to havoc and things breaking."
-#recording_uri: /dev/null
-#slides_uri: /dev/null
+recording_uri: /dev/null
+slides_uri: /dev/null
 ---
 
 Three years of penetration testing and red team experience make for some adrenaline resistance, many technical challenges, and interesting war stories with a facepalm factor. 
