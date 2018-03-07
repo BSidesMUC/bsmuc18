@@ -10,7 +10,7 @@ timeslot:
   end: 2018-04-09 17:35:00
 speakers: 
   - name: "Michael Schloh von Bennewitz"
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/msvbfoto-back.png
     bio: "Michael Schloh von Bennewitz is a computer scientist specializing in embedded systems and network engineering. He actively contributes to the Opensource development community and teaches security analysis workshops. Speaking at technical events every year, Michael has presented for Black Hat, Nokia, Ubuntu, ARIN, Droidcon, AstriCon, the Mobile World Congress, Dockercon, and the CCC. He currently develops hardware with the Monero Project."
 recording_uri: 
 slides_uri: 
