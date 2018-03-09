@@ -59,6 +59,10 @@ conference:
     - name: NSIDE ATTACK Logic
       logo: /img/sponsors/nsideattack.png
       uri: https://www.nsideattacklogic.de/
+    - name: Huawei
+      logo: /img/sponsors/huawei.png
+      uri: http://www.huawei.com/
+
     bronce:
     - name: bronze_sponsors
       logo: /img/sponsors/bronze.png
