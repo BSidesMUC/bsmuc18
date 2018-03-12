@@ -10,8 +10,8 @@ timeslot:
   end: 2018-04-09 18:00:00
 speakers: 
   - name: "Jennifer Stevens"
-    photo: /img/speakers/nemo.png
-    bio: "Master's in InfoSec; CISM, CRISC, PCI ISA; 10+ Years in InfoSec and 10+ Years in IT; Currently work for Oracle as Security, Risk & Compliance Program Manager; In the past I was a CISO, Security Manager, Security Analyst, & Security Engineer for WellStar Health Systems; on the side I was Adjunct Professor teaching InfoSec; Expat from USA living in Munich with my husband & 2 boys!"
+    photo: /img/speakers/jenn.jpeg
+    bio: "Jennifer, certified as CISM, CRISC, PCI ISA, has over 12 years’ experience in Information Security and 10 15 years in IT.  Currently Jennifer works for Oracle as GBU Security, Risk, & Compliance Program Manager for EMEA & APAC. She is responsible for ensuring compliance with PCI DSS, GDPR, and SOX.  She is also responsible for leading and remediating risk assessments/audits and maintaining overall compliance and security controls for the business units. Previously, she worked for WellStar Health Systems as a CISO and other Information Security roles.  She was also an adjunct professor who taught Information Security at various state institutes."
 recording_uri: 
 slides_uri: 
 ---
