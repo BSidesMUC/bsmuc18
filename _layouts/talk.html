@@ -3,7 +3,8 @@ layout: default
 ---
 
 
-{% if page.recording_uri or page.slides_uri%}
+{% if page.recording_uri or page.slides_uri %}
+{% if page.recording_uri != "/dev/null" %}
 <!-- Call to action Start -->
 <section id="call-to-action">
   <div class="container">
@@ -40,6 +41,7 @@ layout: default
     </div>
   </div>
 </section>
+{% endif %}
 {% endif %}
 
 <!-- Call to action Start -->
