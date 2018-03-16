@@ -12,7 +12,7 @@ speakers:
   - name: Julien Reisdorffer
     photo: /img/speakers/Julien_BSides.jpg
     bio: "Julien is a Cyber Security Consultant with Microsoft Services since 2015, where he spends his time with challenging topics like Security Architecture and the obligatory Cyber Janitor duties aka helping customers recover from a compromise."
-  - name: Andreas
+  - name: Andreas Lucas
     photo: /img/speakers/andreas.jpg
     bio: "Andreas started at Microsoft 7 years ago as an AD engineer. From the beginning he was focused on Active Directory and Certificate based security. Since 2016 he is working as a Cyber Security Consultant to help customers in a compromised situation."
 recording_uri: /dev/null
