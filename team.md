@@ -7,7 +7,7 @@ permalink: /team/
 {% include image.html
             img="/img/team-1.jpg"
             title="The team"
-            caption="Christoph, Jenn, Frederic, Claudia<br>Dagmar, Morton, Ana, Hugo" %}
+            caption="Christoph, Jenn, Frederic, Claudia<br>Dagmar, Morton, Ana" %}
 
 
 

@@ -3,7 +3,7 @@ layout: talk
 title: "Formal Methods to the Rescue? Experiences Coding in a Theorem Prover."
 details: true
 track: 1
-accepted: true
+accepted: false
 length: 25
 timeslot:
   start: 2018-04-09 10:35:00
