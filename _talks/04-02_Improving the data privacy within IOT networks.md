@@ -10,7 +10,7 @@ timeslot:
   end: 2018-04-09 11:00:00
 speakers: 
   - name: Samar Belhassine
-    photo: /img/speakers/nemo.png
+    photo: /img/speakers/samar.jpg
     bio: "I am a student at the engineering school Polytechnique Sousse Tunisia. I study engineering in the fields of networks and telecommunications. I already have a Bachelor degree in Computer Networks from Isitcom Hamem Sousse Tunisia College.
 I studied in College many subjects such as IT Security, network administration, web development, mobile networks… 
 During my studies, I did four internship. One by an electricity Company STEG in Tunisia. I discovered electric networks. During the second one, I developed a web and android application in Technoweb Company.
