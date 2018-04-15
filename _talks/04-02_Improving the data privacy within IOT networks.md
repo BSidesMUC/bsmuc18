@@ -16,7 +16,7 @@ I studied in College many subjects such as IT Security, network administration, 
 During my studies, I did four internship. One by an electricity Company STEG in Tunisia. I discovered electric networks. During the second one, I developed a web and android application in Technoweb Company.
  While in the third training in Tunisie Telecom, I helped by the maintenance of ADSL lines. 
 During the last internship that I did it in TAV Airports, I helped the IOT department by the configuration of Switches and routers."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=IkQNIiFeHNY
 slides_uri: 
 ---
 

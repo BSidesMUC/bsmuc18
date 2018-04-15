@@ -15,8 +15,8 @@ speakers:
   - name: Ingo Bente
     photo: /img/speakers/ibente.jpg
     bio: "Today, Ingo Bente and Florian Junge take care of the security at SinnerSchrader as director information security and senior security engineer, respectively. Here, they support their colleagues who develop applications for major enterprise customers. Because of the agile methodology used in most projects, both concentrate on a hands-on approach and personal contact and do not rely on heavy weight,silver bullet promising applications and processes. They describe their security understanding as full stack - from people to products."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=_tcww4NuTBY
+slides_uri: /static/slides/06-01_DIY_Patch_Management.pdf
 ---
 
 Installing software patches is a no brainer when it comes to security. 

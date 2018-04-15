@@ -13,7 +13,7 @@ speakers:
     photo: /img/speakers/j3lenam_2.jpg
     bio: "My name is Jelena Milosevic, an extremely curious nurse, in love in math and tech ( believe it or not), finding correlations between the subjects that most people doesn't see.
 I can be proud that because of my curiosity, willing to learn and my activity, I get the part of I am the Cavalry group ( @iamthecavalry )  and belong to the network of Women in cyber security ( WICS - @WomenInCyber) "
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=84FXxVV161s
 slides_uri: 
 keynote: true
 ---

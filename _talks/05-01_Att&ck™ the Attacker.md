@@ -13,8 +13,8 @@ speakers:
     photo: /img/speakers/ckollee.png
     bio: "Christian is an IT security consultant in the Cyber Defense team at NTT Security (Germany). He supports customers to prepare for and respond to IT security incidents of all kinds. In his spare time, Christian researches current threats, like malware and new attack techniques, and methods to detect and prevent them.
     You can reach him via Twitter (@ckollee) or e-mail (christian@kollee.de)."
-recording_uri:
-slides_uri:
+recording_uri: https://www.youtube.com/watch?v=PQgsEtRcfAA
+slides_uri: /static/slides/05-01_Attck_the_Attacker-Slides.pdf
 ---
 
 Meanwhile, many defenders have accepted that prevention does not always work. 

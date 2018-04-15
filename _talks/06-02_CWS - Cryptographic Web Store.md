@@ -12,7 +12,7 @@ speakers:
   - name: Kim Jensen
     photo: /img/speakers/nemo.png
     bio: "Kim Jensen is the author of the Java based Open Source product CWS, Cryptographic Web Store or simply CryptoStore. He has worked as a programmer for more than 20 years, the last 10 with a medium size German IT company, primarily as a backend Java developer with strong focus on security."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=LWvgRRxWZic
 slides_uri: 
 ---
 

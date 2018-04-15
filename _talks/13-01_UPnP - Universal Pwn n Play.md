@@ -12,7 +12,7 @@ speakers:
   - name: "Martin Zeiser"
     photo: /img/speakers/nemo.png
     bio: "Martin Zeiser has been into IT security for more than 20 years. Before and during his CS studies he developed software and papers covering topics ranging from in-depth TCP/IP to cryptography, covering various protocols, systems and attack surfaces, including exploits against server software or remotely decrypting NTLM passwords. He joined Cisco in 2007 and became one of the first members of the Talos organization."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=rseMaljMcBY
 slides_uri: 
 ---
 

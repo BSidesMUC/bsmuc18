@@ -12,7 +12,7 @@ speakers:
   - name: Christina Lekati
     photo: /img/speakers/ChristinaLekati.jpeg
     bio: "Christina Lekati is a Social Engineering expert and ethical human hacker. With a background in Psychology, she learned the mechanisms of behavior, motivation, decision making, as well as manipulation and deceit. She became particularly interested in human dynamics and passionate about social engineering. Her writings on social engineering strategies earned her a distinction during her master studies. Christina has participated among other things, in forensic investigations within companies, and in needs and vulnerabilities assessments. She is currently working with Cyber Risk GmbH, a provider of cyber security training programs, as a social engineering expert and trainer."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=kb3WM_BtxcA
 slides_uri: 
 ---
 

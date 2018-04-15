@@ -16,7 +16,7 @@ speakers:
     photo: /img/speakers/andreas.jpg
     bio: "Andreas started at Microsoft 7 years ago as an AD engineer. From the beginning he was focused on Active Directory and Certificate based security. Since 2016 he is working as a Cyber Security Consultant to help customers in a compromised situation."
 recording_uri: /dev/null
-slides_uri: 
+slides_uri: /dev/null
 ---
 
 The remediation phase is the most important step in a successful incident response.

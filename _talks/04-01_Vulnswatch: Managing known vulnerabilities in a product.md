@@ -12,7 +12,7 @@ speakers:
   - name: "Zaur Molotnikov"
     photo: /img/speakers/nemo.png
     bio: "Zaur has finished his university in 2009 getting a degree in applied mathematics and informatics. Correctness has always been an interesting subject for him. Moving to Munich and studying at TUM has moved the focus towards security. Zaur works now at genua gmbh as a 'security guy', the company builds network equipment for German state agencies and Telecom. Besides that Zaur is one of the OWASP authors taking care of Rails Security Cheat Sheet."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=4SChizs7q5Q
 slides_uri: 
 ---
 
