@@ -79,7 +79,7 @@ Website: www.bsidesmunich.org<br>
 
 The website of BSides Munich collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.
 
-When using these general data and information, BSides Munich does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, BSides Munich analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.
+When using these general data and information, BSides Munich does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, BSides Munich analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.<a id="evbr"></a>
 
 ## Use of EventBrite
 **Ticket registration via EventBrite**
@@ -93,7 +93,7 @@ Further information about the data protection offered by EventBrite can be found
 
 Further information about the EU-US Privacy Shield can be found at: <a href="http://ec.europa.eu/justice/data-protection/international-transfers/eu-us-privacy-shield/index_en.htm">ec.europa.eu</a>
 
-The data subject may cancel its registration and revoke its consent to the storage of this data at any time with future effect. For instructions to take this step, please refer to EventBrites data privacy policy above.
+The data subject may cancel its registration and revoke its consent to the storage of this data at any time with future effect. For instructions to take this step, please refer to EventBrites data privacy policy above.<a id="mc"></a>
 
 ## Use of MailChimp
 
