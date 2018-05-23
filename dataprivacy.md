@@ -2,6 +2,7 @@
 layout: textpage
 title: Data privacy statement
 permalink: /dataprivacy/
+robots: noindex
 ---
 
 # Privacy Policy

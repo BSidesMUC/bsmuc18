@@ -2,6 +2,7 @@
 layout: imprint
 title: Imprint
 permalink: /imprint/
+robots: noindex
 ---
 
 ### LEGAL DISCLOSURE
