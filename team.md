@@ -40,5 +40,5 @@ Morton has been a pioneer in anti-virus and IDS research since it’s inception 
 {% include orgainfo.html twitter="@0xa6ea" %}
 The combination of Site Reliability Engineering and working on planning and strategy for Google's Technical Infrastructure have fit like a charm Ana's previous experience as Software Developer, Technical Consultant and Network Admin. After having worked and studied in Germany, France and Romania, she tries to take into account the different cultural approaches to every challenge. Outside work, she enjoys dancing, hiking in the Alps and watching a good movie or play.
 
-![also the team]({{ "/img/team-2.jpg" | absolute_url }})
+![also the team]({{ site.baseurl | relative_url }}{{ "/img/team-2.jpg" | absolute_url }})
 
