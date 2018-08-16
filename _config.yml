@@ -2,7 +2,7 @@
 # Site settings
 title: BSides Munich 2018
 subtitle: "A free security conference in the heart of Bavaria"
-url: "http://www.bsidesmunich.org" # the base hostname & protocol for your site
+url: "https://2018.bsidesmunich.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
